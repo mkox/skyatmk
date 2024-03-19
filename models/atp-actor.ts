@@ -21,8 +21,10 @@ const AtpActorSchema = new mongoose.Schema<AtpActors>({
   standardFollower: {},
   open: {},
 }, {
-    timestamps: true
+    timestamps: true,
+    collection: 'atp_actors'
   }
 );
 
-export default mongoose.models.AtpActor || mongoose.model<AtpActors>("AtpActor", AtpActorSchema);
+//export default mongoose.models.AtpActor || mongoose.model<AtpActors>("atp_actor", AtpActorSchema);
+export default mongoose.models.AtpActor || mongoose.model<AtpActors>("AtpActor", AtpActorSchema); // AtpActor twice because auf error OverwriteModelError

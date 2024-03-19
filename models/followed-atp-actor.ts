@@ -20,7 +20,8 @@ const FollowedAtpActorSchema = new mongoose.Schema<FollowedAtpActors>({
     },
     actor: {},
 }, {
-    timestamps: true
+    timestamps: true,
+    collection: 'followed_atp_actors'
   }
 );
 
