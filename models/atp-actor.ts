@@ -4,7 +4,7 @@ export interface AtpActors extends mongoose.Document {
   did: string;
   actor: {},
   followedDids: string[];
-  standardFollower: {},
+  baseActors: [],
   open: {}
 }
 
@@ -18,7 +18,7 @@ const AtpActorSchema = new mongoose.Schema<AtpActors>({
   },
   actor: {},
   followedDids: [String],
-  standardFollower: {},
+  baseActors: [],
   open: {},
 }, {
     timestamps: true,
