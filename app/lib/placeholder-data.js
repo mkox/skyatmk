@@ -15,8 +15,8 @@ const atpActors = [
       description: "text desc 1",
       indexedAt: "2024-01-01T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -34,8 +34,8 @@ const atpActors = [
       description: "text desc 2",
       indexedAt: "2024-01-02T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -53,8 +53,8 @@ const atpActors = [
       description: "text desc 3",
       indexedAt: "2024-01-03T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -72,8 +72,8 @@ const atpActors = [
       description: "text desc 4",
       indexedAt: "2024-01-04T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -91,8 +91,8 @@ const atpActors = [
       description: "text desc 5",
       indexedAt: "2024-01-05T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -110,8 +110,8 @@ const atpActors = [
       description: "text desc 6",
       indexedAt: "2024-01-06T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -129,8 +129,8 @@ const atpActors = [
       description: "text desc 7",
       indexedAt: "2024-01-07T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -148,8 +148,8 @@ const atpActors = [
       description: "text desc 8",
       indexedAt: "2024-01-08T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -167,8 +167,8 @@ const atpActors = [
       description: "text desc 9",
       indexedAt: "2024-01-09T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
   {
@@ -186,8 +186,8 @@ const atpActors = [
       description: "text desc 10",
       indexedAt: "2024-01-10T04:00:14.534Z"
     },
-    followedDids: '...',
-    standardFollower: {},
+    followedDids: [],
+    baseActors: [],
     open: {},
   },
 ];

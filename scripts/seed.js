@@ -33,7 +33,7 @@ const AtpActorSchema = new mongoose.Schema({
   },
   actor: {},
   followedDids: [String],
-  standardFollower: {},
+  baseActors: [],
   open: {},
 }, {
     timestamps: true
